@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import DragonBot
-from DragonBot.lib.curve.ttypes import *
+import TOBY
+from TOBY.lib.curve.ttypes import *
 from datetime import datetime
 # from imgurpython import ImgurClient
 import time,random,sys,json,codecs,threading,glob,re
 
-cl = DragonBot.LINE()
+cl = TOBY.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
