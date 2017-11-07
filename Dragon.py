@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import DRAGON
-from DRAGON.lib.curve.ttypes import *
+import DragonBot
+from DragonBot.lib.curve.ttypes import *
 from datetime import datetime
 # from imgurpython import ImgurClient
 import time,random,sys,json,codecs,threading,glob,re
 
-cl = DRAGON.LINE()
+cl = DragonBot.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
