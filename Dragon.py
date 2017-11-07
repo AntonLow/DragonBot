@@ -1,14 +1,24 @@
 # -*- coding: utf-8 -*-
-
-import TOBY
-from TOBY.lib.curve.ttypes import *
+import LineAlpha
+from LineAlpha.Gen.ttypes import *
 from datetime import datetime
-# from imgurpython import ImgurClient
-import time,random,sys,json,codecs,threading,glob,re
+import time,random,sys,json,codecs,threading,glob
 
-cl = TOBY.LINE()
+cl = LineAlpha.LINE()
 cl.login(qr=True)
 cl.loginResult()
+
+kk = LineAlpha.LINE()
+kk.login(qr=True)
+kk.loginResult()
+
+ki = LineAlpha.LINE()
+ki.login(qr=True)
+ki.loginResult()
+
+kc = LineAlpha.LINE()
+kc.login(qr=True)
+kc.loginResult()
 
 # client_id = ''
 # client_secret = ''
